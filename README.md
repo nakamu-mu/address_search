@@ -1,25 +1,25 @@
 # address_search
 
-Search addresses by postal_code (JP).
-
-(unuse db and external services.)
+Search addresses by postal_code (JP).　　
+　　
+(unuse db and external services.)　　
 
 # Requirements
 
-language : python 3.x
+language : python 3.x　　
 modules : reference to "requirements.txt"
 
 # Input data (csv)
 
-x-ken-allYYYYMMDD.csv
-(http://zipcloud.ibsnet.co.jp/)
-
+x-ken-allYYYYMMDD.csv　　
+(http://zipcloud.ibsnet.co.jp/)　　
+　　
 Rename to 'x-ken-all.csv' and place it the directory where script exists.
 
 # Usage
 
-$ pip install
-$ python address_search {$postal_code}
+$ pip install　　
+$ python address_search {$postal_code}　　
 
 e.g.
 ```
